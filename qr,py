@@ -1,0 +1,6 @@
+import qrcode
+
+data = "Niranjan Khanal "
+
+qr = qrcode.make(data)
+qr.save("niranjan_qr.png")
